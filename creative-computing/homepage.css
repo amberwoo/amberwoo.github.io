@@ -1,18 +1,21 @@
 body {
-	background-color: #bce6f5;
+	background-color: #7cb4e1;
 	font-family: 'Courgette', cursive;
 }
 
 #header {
 	color: yellow;
 	background-color: pink;
-	border: 3px dotted white;
+	border: 7px dotted white;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
 }
 
 h1 {
-	border: 3px dotted white;
 	background-color: yellow;
-	color: pink;
+	color: white;
+	text-align: center;
 }
 
 p{
