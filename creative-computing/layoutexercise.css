@@ -1,0 +1,48 @@
+body {
+	background-color: #DDDDDD;
+}
+
+#left-column {
+	background-color: #001f3f;
+	color: #DDDDDD;
+	width: 40%;
+	padding: 5%;
+	float: left;
+}
+
+#right-column {
+	background-color: #FF4136;
+	color: #DDDDDD;
+	float: right;
+	width: 40%;
+	padding: 5%;
+}
+
+#footer {
+	background-color: #3D9970;
+	color: #DDDDDD;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.face {
+	width: 120px;
+	height: 120px;
+	background-color: #B10DC9;
+	border-radius: 60px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	transition: background-color 1s;
+}
+
+.face:hover {
+	background-color: pink;
+}
+
+.face:hover .mouth{
+
+}
