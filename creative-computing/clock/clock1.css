@@ -1,0 +1,52 @@
+body {
+	background-color: yellow;
+}
+.box {
+	width: 1000px;
+	margin: 100px auto;
+}
+
+
+
+.box1 {
+	width: 328px;
+	height: 263px;
+	margin-top: 10px;
+	margin-left: 300px;
+	
+}
+
+
+.food {
+	width: 130px;
+	height: 131px;
+	margin-left: 100px;
+	position:absolute;
+	top:50px;
+}
+.cake1{
+	left:0;
+}
+.cake2{
+	left:150px;
+}
+.cake3{
+	left:300px;
+}
+.cake4{
+	left:450px;
+}
+.cake5{
+	left:600px;
+}
+.cake6{
+	left:750px;
+}
+.box2 {
+	clear: both;
+	position:relative
+}
+
+.box2 img{
+	width:120px;
+}
