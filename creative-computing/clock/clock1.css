@@ -1,21 +1,27 @@
-body {
-	background-color: yellow;
-}
+
 .box {
 	width: 1000px;
 	margin: 100px auto;
 }
 
-
+@-webkit-keyframes rotation{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
 
 .box1 {
 	width: 328px;
 	height: 263px;
-	margin-top: 10px;
-	margin-left: 300px;
-	
+	margin: 150px auto 50px;
+	-webkit-transform: rotate(360deg);
+	animation: rotation 10s linear infinite;
+	-moz-animation: rotation 10s linear infinite;
+	-webkit-animation: rotation 10s linear infinite;
+	-o-animation: rotation 10s linear infinite;
 }
-
+.box1 div{
+	display:none;
+}
 
 .food {
 	width: 130px;

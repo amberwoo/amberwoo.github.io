@@ -20,1419 +20,707 @@ function aa () {
 			pig = document.getElementById("pig"),
 			date = document.getElementById("date");
 		var now = new Date();
-		date.innerHTML = now;
 		var minutes = now.getMinutes();
 		var hour = now.getHours();
 		now = now.toTimeString();
+		
 
-	if (hour == 1 || hour == 13 && minutes < 10) {
+	if(hour == 0 || hour == 12){
+		mouse.style.display = "block";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#ebdcdc";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "block";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour || 1 || hour == 13 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "block";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 1 || hour == 13 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "block";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour || 1 && hour == 13 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "block";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 1 || hour == 13 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "block";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
-			cake1.style.display = "none";
-			cake2.style.display = "none";
-			cake3.style.display = "none";
-			cake4.style.display = "none";
-			cake5.style.display = "none";
-			cake6.style.display = "none";mouse.style.display = "block";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		}
-
-
-	if (hour == 2 || hour == 14 && minutes < 10) {
-			cake1.style.display = "none";
-			cake2.style.display = "block";
-			cake3.style.display = "block";
-			cake4.style.display = "block";
-			cake5.style.display = "block";
-			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "block";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 2 || hour == 14 && minutes < 20) {
-			cake1.style.display = "none";
-			cake2.style.display = "none";
-			cake3.style.display = "block";
-			cake4.style.display = "block";
-			cake5.style.display = "block";
-			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "block";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 2 || hour == 14 && minutes < 30) {
-			cake1.style.display = "none";
-			cake2.style.display = "none";
-			cake3.style.display = "none";
-			cake4.style.display = "block";
-			cake5.style.display = "block";
-			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "block";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 2 || hour == 14 && minutes < 40) {
-			cake1.style.display = "none";
-			cake2.style.display = "none";
-			cake3.style.display = "none";
-			cake4.style.display = "none";
-			cake5.style.display = "block";
-			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "block";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 2 || hour == 14 && minutes < 50) {
-			cake1.style.display = "none";
-			cake2.style.display = "none";
-			cake3.style.display = "none";
-			cake4.style.display = "none";
-			cake5.style.display = "none";
-			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "block";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "block";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-
-	if (hour == 3 || hour == 15 && minutes < 10) {
+	}
+	if(hour == 1 || hour == 13){
+		mouse.style.display = "none";
+		cow.style.display = "block";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#ffd6df";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "block";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 3 || hour == 15 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "block";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 3 || hour == 15 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "block";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 3 || hour == 15 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "block";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 3 || hour == 15 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "block";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "block";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-
-	if (hour == 4 || hour == 16 && minutes < 10) {
+	}
+	if(hour == 2 || hour == 14){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "block";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#ffd7c9";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "block";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour || 4 && hour == 16 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "block";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 4 || hour == 16 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "block";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 4 || hour == 16 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "block";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 4 || hour == 16 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "block";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "block";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-
-	if (hour == 5 || hour == 17 && minutes < 10) {
+	}
+	if(hour == 3 || hour == 15){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "block";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#ff9d79";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "block";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 5 || hour == 17 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "block";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 5 || hour == 17 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "block";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 5 || hour == 17 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "block";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 5 || hour == 17 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "block";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "block";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-	if (hour == 6 || hour == 18 && minutes < 10) {
+	}
+	if(hour == 4 || hour == 16){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "block";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#e29f9f";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "block";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 6 || hour == 18 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "block";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 6 || hour == 18 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "block";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 6 || hour == 18 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "block";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 6 || hour == 18 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "block";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "block";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-	if (hour == 7 || hour == 19 && minutes < 10) {
+	}
+	if(hour == 5 || hour == 17){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "block";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#ff7c4c";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "block";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 7 || hour == 19 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "block";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 7 || hour == 19 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "block";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 7 || hour == 19 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "block";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 7 || hour == 19 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "block";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "block";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-
-	if (hour == 8 || hour == 20 && minutes < 10) {
+	}
+	if(hour == 6 || hour == 18){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "block";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#ff6b89";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "block";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 8 || hour == 20 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "block";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 8 || hour == 20 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "block";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 8 || hour == 20 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "block";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 8 || hour == 20 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "block";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "block";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-
-	if (hour == 9 || hour == 21 && minutes < 10) {
+	}
+	if(hour == 7 || hour == 19){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "block";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#fab340";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "blcok";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 9 || hour == 21 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "blcok";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 9 || hour == 21 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "blcok";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 9 || hour == 21 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "blcok";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 9 || hour == 21 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "blcok";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "blcok";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-	if (hour == 10 || hour == 22 && minutes < 10) {
+	}
+	if(hour == 8 || hour == 20){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "block";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#fe8787";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "block";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 10 || hour == 22 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "block";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 10 || hour == 22 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "block";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 10 || hour == 22 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "block";
-			dog.style.display = "none";
-			pig.style.display = "none";
-		} else if (hour == 10 || hour == 22 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "block";
-			dog.style.display = "none";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "block";
-			dog.style.display = "none";
-			pig.style.display = "none";
 		}
-
-	if (hour == 11 || hour == 23 && minutes < 10) {
+	}
+	if(hour == 9 || hour == 21){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "block";
+		dog.style.display = "none";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#6d99a2";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "block";
-			pig.style.display = "none";
-		} else if (hour == 11 || hour == 23 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "block";
-			pig.style.display = "none";
-		} else if (hour == 11 || hour == 23 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "block";
-			pig.style.display = "none";
-		} else if (hour == 11 || hour == 23 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "block";
-			pig.style.display = "none";
-		} else if (hour == 11 || hour == 23 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "block";
-			pig.style.display = "none";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "block";
-			pig.style.display = "none";
 		}
-
-	if (hour == 12 || hour == 24 && minutes < 10) {
+	}
+	if(hour == 10 || hour == 22){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "block";
+		pig.style.display = "none";
+		document.body.style.backgroundColor = "#02808f";
+		if(minutes<10){
 			cake1.style.display = "none";
 			cake2.style.display = "block";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "block";
-		} else if (hour == 12 || hour == 24 && minutes < 20) {
+		}else if(minutes < 20){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "block";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "block";
-		} else if (hour == 12 || hour == 24 && minutes < 30) {
+		}else if(minutes < 30){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "block";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "block";
-		} else if (hour == 12 || hour == 24 && minutes < 40) {
+		}else if(minutes < 40){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "block";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "block";
-		} else if (hour == 12 || hour == 24 && minutes < 50) {
+		}else if(minutes < 50){
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "block";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "block";
-
-		} else {
+		}else{
 			cake1.style.display = "none";
 			cake2.style.display = "none";
 			cake3.style.display = "none";
 			cake4.style.display = "none";
 			cake5.style.display = "none";
 			cake6.style.display = "none";
-			mouse.style.display = "none";
-			cow.style.display = "none";
-			tiger.style.display = "none";
-			rabbit.style.display = "none";
-			dragon.style.display = "none";
-			snake.style.display = "none";
-			horse.style.display = "none";
-			sheep.style.display = "none";
-			monkey.style.display = "none";
-			chicken.style.display = "none";
-			dog.style.display = "none";
-			pig.style.display = "block";
 		}
+	}
+	if(hour == 11 || hour == 23){
+		mouse.style.display = "none";
+		cow.style.display = "none";
+		tiger.style.display = "none";
+		rabbit.style.display = "none";
+		dragon.style.display = "none";
+		snake.style.display = "none";
+		horse.style.display = "none";
+		sheep.style.display = "none";
+		monkey.style.display = "none";
+		chicken.style.display = "none";
+		dog.style.display = "none";
+		pig.style.display = "blcok";
+		document.body.style.backgroundColor = "#124c60";
+		if(minutes<10){
+			cake1.style.display = "none";
+			cake2.style.display = "block";
+			cake3.style.display = "block";
+			cake4.style.display = "block";
+			cake5.style.display = "block";
+			cake6.style.display = "block";
+		}else if(minutes < 20){
+			cake1.style.display = "none";
+			cake2.style.display = "none";
+			cake3.style.display = "block";
+			cake4.style.display = "block";
+			cake5.style.display = "block";
+			cake6.style.display = "block";
+		}else if(minutes < 30){
+			cake1.style.display = "none";
+			cake2.style.display = "none";
+			cake3.style.display = "none";
+			cake4.style.display = "block";
+			cake5.style.display = "block";
+			cake6.style.display = "block";
+		}else if(minutes < 40){
+			cake1.style.display = "none";
+			cake2.style.display = "none";
+			cake3.style.display = "none";
+			cake4.style.display = "none";
+			cake5.style.display = "block";
+			cake6.style.display = "block";
+		}else if(minutes < 50){
+			cake1.style.display = "none";
+			cake2.style.display = "none";
+			cake3.style.display = "none";
+			cake4.style.display = "none";
+			cake5.style.display = "none";
+			cake6.style.display = "block";
+		}else{
+			cake1.style.display = "none";
+			cake2.style.display = "none";
+			cake3.style.display = "none";
+			cake4.style.display = "none";
+			cake5.style.display = "none";
+			cake6.style.display = "none";
+		}
+	}
 	}
 
 setInterval(aa,1000)
