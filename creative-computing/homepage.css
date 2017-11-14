@@ -1,16 +1,8 @@
 body {
-	background-color: #a3c8c6;
-	font-family: 'Courgette', cursive;
+	background-color: white;
+	font-family: Gill Sans;
 }
 
-#header {
-	color: yellow;
-	background-color: pink;
-	border: 7px dotted white;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-}
 
 h1 {
 	background-color: yellow;
@@ -20,6 +12,8 @@ h1 {
 
 p{
 	line-height: 40px;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 .welcome {
@@ -29,7 +23,7 @@ p{
 }
 
 .projects {
-	font-size: 17;
+	font-size: 24px;
 	font-weight: bold;
 	color: yellow;
 }
