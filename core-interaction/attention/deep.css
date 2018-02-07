@@ -1,0 +1,17 @@
+body{
+  background-color: #e6f5ff;
+  
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+ul {
+  text-align: center;
+  width: 450px;
+  margin: 300px auto;
+  font-family: helvetica;
+}

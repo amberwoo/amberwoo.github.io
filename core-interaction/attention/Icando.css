@@ -1,0 +1,17 @@
+body {
+  background-color: #e6ffe6;
+  text-align: center;
+}
+
+p {
+  font-family: helvetica;
+  text-align: justify;
+  margin: auto 470px;
+  padding-top: 60px;
+}
+
+#homepage {
+  margin-top: 50px;
+  font-family: helvetica;
+
+}
