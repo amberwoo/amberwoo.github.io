@@ -1,0 +1,67 @@
+h2{
+  position: absolute;
+  margin-left: 47%;
+}
+
+.grid-container {
+  margin-left: 20%;
+  margin-top: 100px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  width: 200px;
+	height: 200px;
+	background: #ffe6e6;
+  margin:50px;
+}
+
+a {
+  color: black;
+}
+
+#square1{
+  width: 200px;
+  height: 200px;
+  background: #ff9980;
+}
+
+h1{
+  margin: 0;
+}
+
+#square2{
+  width: 200px;
+  height: 200px;
+  background: #ffff80;
+}
+
+
+
+#square3{
+  width: 200px;
+  height: 200px;
+  background: #e6ffe6;
+}
+
+
+#square4{
+  width: 200px;
+  height: 200px;
+  background: #ffe6e6;
+}
+
+
+#square5{
+  width: 200px;
+  height: 200px;
+  background: #ffe6b3;
+}
+
+
+#square6{
+  width: 200px;
+  height: 200px;
+  background: lightgrey;
+}
