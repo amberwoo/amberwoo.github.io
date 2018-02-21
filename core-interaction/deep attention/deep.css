@@ -1,6 +1,6 @@
 body{
   background-color: #e6f5ff;
-  
+
   font-size: 18px;
 }
 
@@ -14,4 +14,9 @@ ul {
   width: 450px;
   margin: 300px auto;
   font-family: helvetica;
+
 }
+
+/* A {
+  color: black;
+} */

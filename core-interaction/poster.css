@@ -1,0 +1,88 @@
+body {
+  background-color: #d3c9ba;
+
+}
+
+p {
+  font-family: didot;
+  font-size: 36px;
+}
+
+.red {
+  background-color: red;
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+
+.black {
+  background-color: black;
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 550px;
+
+}
+
+h3 {
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 65%;
+  font-size: 12px;
+}
+
+
+
+.he {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.who {
+  position: absolute;
+  margin-left: 24%;
+  margin-top: 13%;
+}
+
+.stops1 {
+  position: absolute;
+  margin-left: 19%;
+  margin-top: 16%;
+}
+
+.being1 {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+
+.better {
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 24%;
+}
+
+.stops2 {
+  position: absolute;
+  margin-top: 51%;
+  margin-left: 18%;
+}
+
+.being2 {
+  position: absolute;
+  margin-top: 55%;
+  margin-left: 21%;
+}
+
+.good {
+  position: absolute;
+  margin-left: 24%;
+  margin-top: 59%;
+}
