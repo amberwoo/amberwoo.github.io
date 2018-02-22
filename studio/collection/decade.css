@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(100,106,88);
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 36px;
+  color: white;
+}
+
+.s3 {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: -100px;
+  transition: all .2s ease-in-out;
+}
+.s3:hover { transform: scale(1.4);
+ }
+
+
+.s2 {
+  position: absolute;
+  margin-left: -550px;
+  margin-top: 580px;
+  transition: all .2s ease-in-out;
+}
+.s2:hover { transform: scale(1.2);
+ }
+
+
+.s1{ transition: all .2s ease-in-out;
+ }
+.s1:hover { transform: scale(1.4);
+ }

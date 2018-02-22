@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(113,14,23);
+  font-family: Helvetica;
+}
+
+
+.w2 {
+  position: relative;
+
+  margin-left: 5%;
+}
+
+.w3 {
+  position: absolute;
+  margin-top: -20%;
+  margin-left: -30%;
+}
+
+p {
+  
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  /* border-radius: 20px; */
+
+}
+
+a {
+  color: white;
+}
+
+.decade {
+  position: absolute;
+
+  top: 330px;
+  left: 20px;
+  /* width: 200px;
+  height: 200px; */
+  border: 2px solid white;
+  margin: auto;
+  padding: 80px;
+  /* border-radius: 150px; */
+}
+
+.color {
+  position: absolute;
+  top: 900px;
+  left:850px;
+  border: 2px solid white;
+  padding: 100px;
+
+}
+
+.location {
+  position: absolute;
+  padding: 80px;
+  top: 60px;
+  left: 1100px;
+  border: 2px solid white;
+}
