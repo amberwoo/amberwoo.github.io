@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(118, 149, 160);
+}
+
+.pg {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+
+}
+
+.imgs {
+  position: absolute;
+  margin-left: 40px;
+}
+
+.h1 {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  transition: all .2s ease-in-out;
+}
+.h1:hover { transform: scale(1.4);
+ }
+
+
+.h2 {
+  position: absolute;
+  left: 500px;
+  top: 55px;
+  transition: all .2s ease-in-out;
+}
+.h2:hover { transform: scale(1.4);
+ }
+
+.h3 {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  transition: all .2s ease-in-out;
+}
+.h3:hover { transform: scale(1.4);
+ }
+
+.h4 {
+  position: absolute;
+  top: 350px;
+  left: 410px;
+  transition: all .2s ease-in-out;
+}
+.h4:hover { transform: scale(1.4);
+ }
+
+.h5 {
+  position: absolute;
+  top: 420px;
+  left: 920px;
+  transition: all .2s ease-in-out;
+}
+.h5:hover { transform: scale(1.4);
+ }
+
+.h6 {
+  position: absolute;
+  top: 15px;
+  left: 900px;
+  transition: all .2s ease-in-out;
+}
+.h6:hover { transform: scale(1.4);
+ }
+
+ .circlehuang {
+ 	width: 30px;
+ 	height: 30px;
+ 	border: 3px solid #ffff99;
+ 	-moz-border-radius: 50px;
+ 	-webkit-border-radius: 50px;
+ 	border-radius: 50px;
+ }
+ .circlehuang:hover {
+   background-color: #ffff99;
+
+ }
+
+
+
+ .circleyu {
+ 	width: 30px;
+ 	height: 30px;
+ 	border: 3px solid white;
+ 	-moz-border-radius: 50px;
+ 	-webkit-border-radius: 50px;
+ 	border-radius: 50px;
+  position: absolute;
+  top: 55px;
+ }
+ .circleyu:hover {
+   background-color: white;
+
+ }
+
+ .circlelv {
+ 	width: 30px;
+ 	height: 30px;
+ 	border: 3px solid #00cc99;
+ 	-moz-border-radius: 50px;
+ 	-webkit-border-radius: 50px;
+ 	border-radius: 50px;
+  position: absolute;
+  top: 110px;
+ }
+ .circlelv:hover {
+   background-color: #00cc99;
+
+ }
+
+ .circlebai {
+ 	width: 30px;
+ 	height: 30px;
+ 	border: 3px solid #0066cc;
+ 	-moz-border-radius: 50px;
+ 	-webkit-border-radius: 50px;
+ 	border-radius: 50px;
+  position: absolute;
+  top: 160px;
+ }
+ .circlebai:hover {
+   background-color: #0066cc;
+
+ }
+
+
+#circles {
+ /* left: 1000px; */
+ position:absolute;
+ float:left;
+ margin: auto;
+ margin-right: 4px;
+ top:35%;
+ /* left: 97%; */
+
+}
