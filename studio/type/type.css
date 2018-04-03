@@ -1,0 +1,326 @@
+/* html {
+    min-height: 100%;
+}
+
+body {
+
+  background-repeat: no-repeat;
+  background: linear-gradient(#f1c7c9 20%, #0b2f6b 80%);
+
+} */
+
+#firstp {
+  background-repeat: no-repeat;
+  background: linear-gradient(#ffffff 2%, #f1c7c9 25%, #0b2f6b 70%);
+  height: 700vh;
+}
+
+/* #secondp {
+  background-repeat: no-repeat;
+  background: linear-gradient(#0b2f6b 20%, #ea8144 80%);
+  height: 100vh;
+} */
+
+p {
+  font-family: Georgia;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.stars {
+  /* font-family: Georgia;
+  font-size: 1.5em;
+  font-style: italic; */
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  /* color: white; */
+}
+
+#flower {
+  /* font-family: Georgia;
+  font-size: 1.5em;
+  font-style: italic; */
+  position: absolute;
+  top:28%;
+  left: 25%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+#rose {
+  position: absolute;
+  top:30%;
+  left: 30%;
+
+}
+
+#rose:hover {
+  opacity: 0.3;
+  transition: opacity .6s;
+}
+
+.second {
+  color: white;
+  position: absolute;
+  left: 55%;
+  font-size: 1em;
+  top: 600px;
+}
+
+#it {
+
+  position: absolute;
+  top: 700px;
+  /* left: 60%; */
+}
+
+#is {
+  position: absolute;
+  top: 730px;
+
+
+}
+
+#the {
+  position: absolute;
+  top: 760px;
+
+}
+
+#time {
+  position: absolute;
+  top: 790px;
+  color: #e56273;
+  opacity: 0;
+  transition: opacity .5s;
+
+}
+
+#you {
+  position: absolute;
+  top: 820px;
+}
+
+#have {
+  position: absolute;
+  top: 850px;
+}
+
+#wasted {
+  position: absolute;
+  top: 880px;
+  opacity: 0;
+  color: #e56273;
+  transition: opacity .5s;
+}
+
+#for {
+  position: absolute;
+  top: 910px;
+}
+
+#your {
+  position: absolute;
+  top: 940px;
+  opacity: 0;
+  color: #e56273;
+  transition: opacity .5s;
+}
+
+#rose2 {
+  position: absolute;
+  top: 970px;
+  opacity: 0;
+  color: #e56273;
+  transition: opacity .5s;
+}
+
+#that {
+  position: absolute;
+  top: 1000px;
+}
+
+#important {
+  position: absolute;
+  top: 1600px;
+  left: 65%;
+  color: white;
+  color: #e56273;
+  transition: left 1.5s;
+  /* display: none; */
+}
+
+#sunset {
+  position: absolute;
+  top: 2700px;
+  left: 40%;
+  color: white;
+  word-spacing: 15px;
+}
+
+#when {
+  position: absolute;
+  top: 2780px;
+  left: 60%;
+  transition: all ;
+  color:white;
+}
+
+#when.off {
+  top: 2800px;
+}
+
+#one {
+  position: absolute;
+  top: 2780px;
+  left:65.5%;
+  color:white;
+}
+
+#is2 {
+  position: absolute;
+  top: 2780px;
+  left: 69.5%;
+  color:white;
+}
+
+#so {
+  position: absolute;
+  top: 2780px;
+  left: 72%;
+  color:white;
+}
+
+#sad {
+  position: absolute;
+  top: 2780px;
+  left: 74.5%;
+  color:white;
+}
+
+#secret1 {
+  position: absolute;
+  top: 5500px;
+  left:30%;
+}
+
+#and {
+  position: absolute;
+  top: 5500px;
+  left:18.5%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+#simple {
+  position: absolute;
+  top: 5550px;
+  left:22%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+#four {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+#it2 {
+  position: absolute;
+  top: 5350px;
+  left: 30%;
+}
+
+#is3 {
+  position: absolute;
+  top: 5200px;
+  left: 25%;
+}
+
+#only {
+  position: absolute;
+  top: 5400px;
+  left: 45%;
+}
+
+#with {
+  position: absolute;
+  top: 5300px;
+  left: 15%;
+}
+
+#the2 {
+  position: absolute;
+  top: 5200px;
+  left: 40%;
+}
+
+#heart {
+  position: absolute;
+  top: 5450px;
+  left: 35%;
+  color: #e56273;
+}
+
+#that2 {
+  position: absolute;
+  top: 5300px;
+  left: 45%;
+}
+
+#one2 {
+  position: absolute;
+  top: 5400px;
+  left: 20%;
+}
+
+#can {
+  position: absolute;
+  top: 5530px;
+  left: 50%;
+}
+
+#see {
+  position: absolute;
+  top: 5250px;
+  left: 30%;
+}
+
+#rightly {
+  position: absolute;
+  top: 5520px;
+  left: 18%;
+}
+
+#heart2 {
+  position: absolute;
+  top: 5400px;
+  left: 20%;
+  opacity: 0;
+  color: #e56273;
+}
+
+#invisible {
+  position: absolute;
+  top: 5480px;
+  left: 40%;
+  color: white;
+  opacity: 0;
+}
+
+#invisible:hover {
+
+}
+
+/* #what {
+  position: absolute;
+  top: 5600px;
+  left: 60%;
+}
+
+#what:hover {
+  position: absolute;
+  top: 5500px;
+  left: 60%;
+  transition: 1s;
+} */
