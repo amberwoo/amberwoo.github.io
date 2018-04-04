@@ -40,3 +40,21 @@ body {
   display: none;
   color: gold;
 }
+
+.input {
+  position: absolute;
+  top: 2%;
+
+  color: snow;
+  font-family: Helvetica;
+  font-size: 1.5em;
+}
+
+.output {
+  position: absolute;
+  top: 8%;
+
+  color: snow;
+  font-family: Helvetica;
+  font-size: 1.5em;
+}
