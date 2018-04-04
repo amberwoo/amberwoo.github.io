@@ -22,7 +22,7 @@ function onImportClick() {
 window.addEventListener("scroll", onWindowScroll)
 
 function onWindowScroll() {
-    if (window.pageYOffset > 450) {
+    if (window.pageYOffset > 600) {
         important.style.left = "60%";
 
     // var word = ...;
@@ -76,9 +76,9 @@ function handleHeartClick() {
   four.style.opacity = "0";
 }
 
-var invisible = document.getElementById("invisible")
-heart2.addEventListener("click",handleHeart2Click)
+var five = document.getElementById("five")
+heart2.addEventListener("click",handleFiveClick)
 
-function handleHeart2Click () {
-  invisible.style.opacity =".1";
+function handleFiveClick () {
+  five.style.opacity ="1";
 }

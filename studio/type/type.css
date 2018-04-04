@@ -12,7 +12,7 @@ body {
 #firstp {
   background-repeat: no-repeat;
   background: linear-gradient(#ffffff 2%, #f1c7c9 25%, #0b2f6b 70%);
-  height: 700vh;
+  height: 710vh;
 }
 
 /* #secondp {
@@ -46,6 +46,7 @@ p {
   left: 25%;
   opacity: 0;
   transition: opacity .5s;
+
 }
 
 #rose {
@@ -58,6 +59,7 @@ p {
 #rose:hover {
   opacity: 0.3;
   transition: opacity .6s;
+  cursor: pointer;
 }
 
 .second {
@@ -148,7 +150,15 @@ p {
   color: white;
   color: #e56273;
   transition: left 1.5s;
+  cursor: pointer;
   /* display: none; */
+}
+
+
+#sunset1 {
+  position: absolute;
+  top: 2750px;
+  left: 75%;
 }
 
 #sunset {
@@ -203,6 +213,7 @@ p {
   position: absolute;
   top: 5500px;
   left:30%;
+  cursor: pointer;
 }
 
 #and {
@@ -219,7 +230,9 @@ p {
   left:22%;
   opacity: 0;
   transition: opacity .5s;
+  cursor: pointer;
 }
+
 #four {
   opacity: 0;
   transition: opacity .5s;
@@ -260,6 +273,7 @@ p {
   top: 5450px;
   left: 35%;
   color: #e56273;
+  cursor: pointer;
 }
 
 #that2 {
@@ -298,19 +312,101 @@ p {
   left: 20%;
   opacity: 0;
   color: #e56273;
+  cursor: pointer;
 }
+
+
+#five {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+#what {
+  position: absolute;
+  top: 5480px;
+  left: 40%;
+}
+#what:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+
+#is4 {
+  position: absolute;
+  top: 5480px;
+  left: 45%;
+}
+#is4:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+#essential {
+  position: absolute;
+  top: 5480px;
+  left: 47%;
+}
+#essential:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+
+#is5 {
+  position: absolute;
+  top: 5480px;
+  left: 54.5%;
+}
+#is5:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
 
 #invisible {
   position: absolute;
   top: 5480px;
-  left: 40%;
-  color: white;
-  opacity: 0;
+  left: 57%;
 }
-
 #invisible:hover {
-
+  opacity: 0;
+  transition: 1s;
 }
+
+
+#to {
+  position: absolute;
+  top: 5480px;
+  left: 64%;
+}
+#to:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+
+#the3 {
+  position: absolute;
+  top: 5480px;
+  left: 66.5%;
+}
+#the3:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+
+#eyes {
+  position: absolute;
+  top: 5480px;
+  left: 70%;
+}
+#eyes:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
 
 /* #what {
   position: absolute;

@@ -1,0 +1,42 @@
+body {
+  background-color: #f7b9b2;
+}
+
+#ai {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  font-family: STSong;
+  font-size: 10em;
+  transition: all;
+
+}
+
+#xin {
+  position: absolute;
+  top: 10%;
+  left: 57%;
+  font-family: STSong;
+  font-size: 10em;
+
+
+}
+
+#love {
+  font-family: Helvetica;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  color: crimson;
+}
+
+#treasured {
+  font-family: Helvetica;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  display: none;
+  color: gold;
+}
