@@ -45,7 +45,7 @@ p {
   top:28%;
   left: 25%;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity 1s;
 
 }
 
@@ -58,7 +58,7 @@ p {
 
 #rose:hover {
   opacity: 0.3;
-  transition: opacity .6s;
+  transition: opacity .8s;
   cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ p {
   top: 790px;
   color: #e56273;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity 1s;
 
 }
 
@@ -114,7 +114,7 @@ p {
   top: 880px;
   opacity: 0;
   color: #e56273;
-  transition: opacity .5s;
+  transition: opacity 1s;
 }
 
 #for {
@@ -127,7 +127,7 @@ p {
   top: 940px;
   opacity: 0;
   color: #e56273;
-  transition: opacity .5s;
+  transition: opacity 1s;
 }
 
 #rose2 {
@@ -135,7 +135,7 @@ p {
   top: 970px;
   opacity: 0;
   color: #e56273;
-  transition: opacity .5s;
+  transition: opacity 1s;
 }
 
 #that {
@@ -171,42 +171,85 @@ p {
 
 #when {
   position: absolute;
-  top: 2780px;
+  top: 2820px;
   left: 60%;
-  transition: all ;
+  transition: all 1s;
   color:white;
 }
 
-#when.off {
-  top: 2800px;
+#when.org {
+  top: 2780px;
+  left: 60%;
+  transition: all 1s;
+  color:white;
 }
 
 #one {
   position: absolute;
+  top: 2840px;
+  left:65.5%;
+  color:white;
+  transition: all 1s;
+  transform: rotate(20deg)
+}
+
+#one.org {
+  position: absolute;
   top: 2780px;
   left:65.5%;
   color:white;
+  transition: all 1s;
 }
 
 #is2 {
   position: absolute;
+  top: 2850px;
+  left: 69.5%;
+  color:white;
+  transition: all 1s;
+  transform: rotate(25deg)
+}
+#is2.org {
+  position: absolute;
   top: 2780px;
   left: 69.5%;
   color:white;
+  transition: all 1s;
 }
 
 #so {
   position: absolute;
+  top: 2900px;
+  left: 72%;
+  color:white;
+  transition: all 1s;
+  transform: rotate(320deg)
+}
+
+#so.org {
+  position: absolute;
   top: 2780px;
   left: 72%;
   color:white;
+  transition: all 1s;
 }
 
 #sad {
   position: absolute;
+  top: 2940px;
+  left: 74.5%;
+  color:white;
+  transition: all 1s;
+  transform: rotate(40deg)
+}
+
+#sad.org {
+  position: absolute;
   top: 2780px;
   left: 74.5%;
   color:white;
+  transition: all 1s;
+
 }
 
 #secret1 {
@@ -214,6 +257,7 @@ p {
   top: 5500px;
   left:30%;
   cursor: pointer;
+  opacity: 1;
 }
 
 #and {
@@ -325,75 +369,60 @@ p {
   position: absolute;
   top: 5480px;
   left: 40%;
+  transition: opacity 1s;
 }
-#what:hover {
-  opacity: 0;
-  transition: 1s;
-}
+
 
 
 #is4 {
   position: absolute;
   top: 5480px;
   left: 45%;
+  transition: opacity 1s;
 }
-#is4:hover {
-  opacity: 0;
-  transition: 1s;
-}
+
 
 #essential {
   position: absolute;
   top: 5480px;
   left: 47%;
+  transition: opacity 1s;
 }
-#essential:hover {
-  opacity: 0;
-  transition: 1s;
-}
+
 
 
 #is5 {
   position: absolute;
   top: 5480px;
   left: 54.5%;
+  transition: opacity 1s;
 }
-#is5:hover {
-  opacity: 0;
-  transition: 1s;
-}
+
 
 
 #invisible {
   position: absolute;
   top: 5480px;
   left: 57%;
+  transition: opacity 1s;
 }
-#invisible:hover {
-  opacity: 0;
-  transition: 1s;
-}
+
 
 
 #to {
   position: absolute;
   top: 5480px;
   left: 64%;
+  transition: opacity 1s;
 }
-#to:hover {
-  opacity: 0;
-  transition: 1s;
-}
+
 
 
 #the3 {
   position: absolute;
   top: 5480px;
   left: 66.5%;
-}
-#the3:hover {
-  opacity: 0;
-  transition: 1s;
+  transition: opacity 1s;
 }
 
 
@@ -401,11 +430,9 @@ p {
   position: absolute;
   top: 5480px;
   left: 70%;
+  transition: opacity 1s;
 }
-#eyes:hover {
-  opacity: 0;
-  transition: 1s;
-}
+
 
 
 /* #what {
