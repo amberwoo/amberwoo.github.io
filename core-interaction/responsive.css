@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Helvetica;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+.container .col-left {
+  float: left;
+  width: 35%;
+}
+
+.container .col-right {
+  float: right;
+  width: 35%;
+}
+
+
+.first {
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+
+.second {
+  float: right;
+  display: inline-block;
+  width: 50%;
+}
+
+.container {
+  margin: 40px 0;
+  padding: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .container .col-left {
+        float: none;
+        width: 100%;
+    }
+
+    .container .col-right {
+        float: none;
+        width: 100%;
+    }
+}

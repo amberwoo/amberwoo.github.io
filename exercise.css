@@ -1,0 +1,52 @@
+#back {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+#mickey {
+  position: absolute;
+  left:37%;
+  top: 35%;
+  display: none;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 3rem;
+  position: absolute;
+  top: 80%;
+  margin-left: 42%;
+}
+
+body {
+  background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+  #back {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 800px;
+    height: 800px;
+
+  }
+
+  #mickey {
+    position: absolute;
+    left:25%;
+    top: 30%;
+    width: 200px;
+    height: 200px;
+    display: none;
+  }
+
+  p {
+    font-family: helvetica;
+    font-size: 3rem;
+    position: absolute;
+    top: 80%;
+    margin-left: 33%;
+  }
+}
