@@ -1,0 +1,12 @@
+body {
+  background-color: #FCFAA9;
+  font-family: Chalkboard SE;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 1024px){
+    body {
+      text-align: center;
+    }
+
+}

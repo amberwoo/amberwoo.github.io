@@ -8,6 +8,11 @@ p {
   font-family: Helvetica;
 }
 
+.container {
+  margin: 40px 0;
+  padding: 80px;
+}
+
 .container .col-left {
   float: left;
   width: 35%;
@@ -22,21 +27,20 @@ p {
 .first {
   float: left;
   display: inline-block;
-  width: 50%;
+  position: absolute;
+  top: 110%;
+  left: 10%;
 }
 
 .second {
   float: right;
   display: inline-block;
-  width: 50%;
+  top: 800px;
 }
 
-.container {
-  margin: 40px 0;
-  padding: 80px;
-}
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 1024px){
+
     .container .col-left {
         float: none;
         width: 100%;
@@ -46,4 +50,20 @@ p {
         float: none;
         width: 100%;
     }
+
+    .first {
+      position: relative;
+      float: none;
+      top: 150%;
+    }
+
+
+    .second {
+      float: none;
+      position: relative;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+  
 }
