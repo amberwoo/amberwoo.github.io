@@ -10,10 +10,19 @@ body {
       text-align: center;
     }
 
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+
+    /* a:visited {
+    color: orange;
+    } */
+
     h1 {
 
       position: absolute;
-      top: 35%;
+      top: 30%;
       margin: 0 auto;
       font-size: 7em;
     }
