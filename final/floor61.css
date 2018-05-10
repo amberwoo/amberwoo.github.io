@@ -1,0 +1,21 @@
+body {
+  background-color: #F7E263;
+  font-family: Chalkboard SE;
+  /* font-family: Helvetica; */
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+      .six1 {
+        position: absolute;
+        top: 35%;
+        left: 7%;
+      }
+
+      p {
+        font-family: Chalkboard SE;
+        font-size: 5em;
+        position: absolute;
+        left: 8%;
+      }
+    }
