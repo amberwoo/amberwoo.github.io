@@ -5,13 +5,45 @@
     <title>Final</title>
     <link rel="stylesheet" type="text/css" href="floor61.css"/>
 
+
   </head>
 
   <body>
-    <img src="61.jpg" width="70%" height="60%" class="six1">
+    <img src="61.jpg" width="70%" height="55%" class="six1">
     <p>6th Floor</p>
 
-    <button id="song1">
-    <audio controls>
-    <source src="6_1.mp3" type="audio/mpeg">
-    </audio>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="floor1.html">floor 1</a>
+        <a href="floor2.html">floor 2</a>
+        <a href="floor3.html">floor 3</a>
+        <a href="floor4.html">floor 4</a>
+        <a href="floor51.html">floor 5</a>
+        <!-- <a href="#">floor 6</a> -->
+        <a href="final.html">homepage</a>
+      </div>
+    </div>
+
+
+    <audio id="song" src="6_1.mp3"></audio>
+    <button id="song1" type="button" onclick="javascript:toggleSound();">
+      おとなの掟
+    </button>
+
+    <script type="text/javascript">
+
+        function toggleSound() {
+          var song = document.getElementById('song');
+          if (song.paused)
+            song.play();
+          else
+            song.pause();
+        }
+
+      </script>
+
+    </body>
+    </html>
+
+        <!-- <button class="song1_2" onclick="document.getElementById('song1').pause()"></button> -->
