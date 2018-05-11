@@ -1,6 +1,11 @@
 body{
   background-color: antiquewhite;
   font-family: helvetica;
+  color: sienna;
+}
+
+a {
+  color:burlywood;
 }
 
 h1 {
@@ -16,5 +21,19 @@ p{
 
   width: 150px;
   margin: 50px auto;
-  background-color: 
+  background-color:
+}
+
+#ingre {
+  margin-left: 40%;
+}
+
+.direc {
+    width: 500px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.h2 {
+  color: brown;
 }
