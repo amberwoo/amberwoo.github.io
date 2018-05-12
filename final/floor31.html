@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Final</title>
+    <link rel="stylesheet" type="text/css" href="floor31.css"/>
+
+  </head>
+
+  <body>
+    <img src="31.jpg" width="85%" height="" class="five1">
+    <p>3rd Floor</p>
+
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="floor11.html">floor 1</a>
+        <a href="floor21.html">floor 2</a>
+        <a href="floor41.html">floor 4</a>
+        <a href="floor51.html">floor 5</a>
+        <a href="floor61.html">floor 6</a>
+        <!-- <a href="#">floor 6</a> -->
+        <a href="final.html">homepage</a>
+      </div>
+    </div>
+
+
+    <audio id="song" src="life.mp3"></audio>
+    <button id="song1" type="button" onclick="javascript:toggleSound();">
+      Life Like A Boat
+    </button>
+
+    <script type="text/javascript">
+
+        function toggleSound() {
+          var song = document.getElementById('song');
+          if (song.paused)
+            song.play();
+          else
+            song.pause();
+        }
+
+      </script>
+
+    </body>
+    </html>

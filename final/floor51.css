@@ -8,16 +8,16 @@ body {
 @media screen and (min-width: 480px) and (max-width: 1024px) {
       .five1 {
         position: absolute;
-        top: 15%;
-        left: 7%;
+        top: 20%;
+        right: 7%;
       }
 
       p {
         font-family: Chalkboard SE;
         font-size: 4em;
         position: absolute;
-        top: 70%;
-        left: 8%;
+        top: 75%;
+        right: 8%;
       }
 
       #song1 {
@@ -27,8 +27,8 @@ body {
         font-family: Arial;
         font-weight: bold;
         position: absolute;
-        top: 85%;
-        left: 7%;
+        top: 88%;
+        right: 7%;
       }
 
       .dropbtn {
