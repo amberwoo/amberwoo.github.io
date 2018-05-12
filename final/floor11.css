@@ -16,7 +16,7 @@ body {
         font-family: Chalkboard SE;
         font-size: 5em;
         position: absolute;
-        top: 75%;
+        top: 70%;
         left: 8%;
       }
 
@@ -46,7 +46,8 @@ body {
       .dropdown {
           position: absolute;
           top: 2%;
-          left: 65%;
+          left: 55%;
+          width: 400px;
           display: inline-block;
           border-radius: 20px;
       }
@@ -56,7 +57,7 @@ body {
           display: none;
           position: absolute;
           background-color: #f9f9f9;
-          width: 310px;
+          width: 400px;
 
           border-radius: 20px;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
