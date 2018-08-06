@@ -29,6 +29,13 @@ a {
   color: white;
 }
 
+.music {
+  position: absolute;
+  bottom: 20%;
+  right: 16%;
+
+}
+
 .flip-container {
 	perspective: 1000px;
 }
