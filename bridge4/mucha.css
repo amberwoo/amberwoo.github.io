@@ -16,6 +16,19 @@ p {
   line-height: 50px;
 }
 
+p:hover {
+  color: gold;
+  transition: 4s;
+}
+/* a:hover {
+  color: gold;
+  transition: 4s;
+} */
+
+a {
+  color: white;
+}
+
 .flip-container {
 	perspective: 1000px;
 }
